@@ -1,0 +1,41 @@
+﻿Build started 11/23/2017 7:22:47 PM.
+     1>Project "D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\snakeOfficial\snakeOfficial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt snakeOfficial.cpp
+         snakeOfficial.cpp
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(48): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(128): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(396): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(254) : see declaration of 'gets'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(397): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(398): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(444): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(254) : see declaration of 'gets'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(445): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(446): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(448): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(449): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(450): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(451): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(453): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(455): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230) : see declaration of 'fscanf'
+     1>d:\học kỳ 2\kĩ thuật lập trình\thực hành\snake\snakeofficial\snakeofficial\snakeofficial.cpp(490): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\conio.h(131) : see declaration of 'getch'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\Debug\snakeOfficial.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\Debug\snakeOfficial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\Debug\snakeOfficial.lib" /MACHINE:X86 Debug\snakeOfficial.obj
+         snakeOfficial.vcxproj -> D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\Debug\snakeOfficial.exe
+     1>Done Building Project "D:\HỌC KỲ 2\KĨ THUẬT LẬP TRÌNH\Thực hành\SNAKE\snakeOfficial\snakeOfficial\snakeOfficial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.41
