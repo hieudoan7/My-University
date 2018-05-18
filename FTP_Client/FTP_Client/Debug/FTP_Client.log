@@ -1,0 +1,32 @@
+﻿Build started 5/18/2018 10:52:50 PM.
+     1>Project "D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\FTP_Client\FTP_Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FTP_Client.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FTP_Client.cpp
+         FTP_Client.cpp
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(41): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(41): warning C4566: character represented by universal-character-name '\u1EF3' cannot be represented in the current code page (1252)
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(42): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(528) : see declaration of 'mbstowcs'
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(104): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(134): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(252): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'int', possible loss of data
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(299): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(315): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(344): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(376): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(392): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\học kỳ 4\mmt\project1_ftp\ftp_client\ftp_client\ftp_client.cpp(438): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\Debug\FTP_Client.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\Debug\FTP_Client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\Debug\FTP_Client.lib" /MACHINE:X86 Debug\FTP_Client.res
+         Debug\FTP_Client.obj
+         Debug\stdafx.obj
+         FTP_Client.vcxproj -> D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\Debug\FTP_Client.exe
+     1>Done Building Project "D:\HỌC KỲ 4\MMT\PROJECT1_FTP\FTP_Client\FTP_Client\FTP_Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
