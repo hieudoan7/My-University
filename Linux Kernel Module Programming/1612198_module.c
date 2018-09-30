@@ -17,20 +17,28 @@ int ret;           //will be used to hold return values of functions; this is be
 dev_t dev_num;
 
 #define DEVICE_NAME	 "1612198_device"
+#define BUFFER_LENGTH 4;
  
 
 //called when user wants to get information from the device
-ssize_t device_read(struct file* filp, char* bufStoreData,size_t bufCount,loff_t* curOffset){
+
+static ssize_t device_read(struct file *filp,char *buffer, size_t length, loff_t *offset)
+{
 	int randomNumber;
 	get_random_bytes(&randomNumber,sizeof(randomNumber));
-	return randomNumber;
+	int ret = copy_to_user(buffer,&randomNumber,BUFFER_LENGTH);
+	if (ret == 0){
+		printk(KERN_ALERT "Sent %ld character to the user\n ",sizeof(randomNumber));
+		return sizeof(randomNumber);
+	} else {
+		printk(KERN_ALERT "Failed to send!\n");
+		return -EFAULT;
+	}
 }
-
-
 
 //Tell the kernel which functions to call when user operates on our device file
 struct file_operations fops={
-	.owner = THIS_MODULE,  	//prevent unloadind of this module when operations are in use
+	.owner = THIS_MODULE,  	//prevent unloading of this module when operations are in use
 	.read = device_read		//points to the method to call when reading from the device
 };
 

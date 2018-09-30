@@ -1,0 +1,17 @@
+Cách chạy chương trình get_ramdom_number.c từ module 1612198_module
+1. Mở terminal và cài đặt linux-headers cho máy (nếu đã cài thì thôi)
+	* Xem đúng version trên computer: sử dụng lệnh $ uname - r
+
+2. dir đến thư mục chứa các file, chạy lệnh: make để tạo ra file module 1612198_module.ko
+
+3. Chèn module vào kernel:
+    $ ins mod 1612198_module.ko
+
+4. Tạo Character Device File:	
+    mknod /dev/1612198_device c major_number minor_number
+    * major_number, minor_number: dùng lệnh dmesg để đọc trong file log
+    * 1612198_device: tên của Character Device File
+    
+5. Compile file get_random_nubmer.c 
+	$ gcc get_random_number.c -o getNumberApp
+	$ ./getNumberApp  #chạy file thực thi lên và ta sẽ có được số random từ module.
