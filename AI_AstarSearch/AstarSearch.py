@@ -42,6 +42,7 @@ def Astar_search(start, goal):
 	came_from={}
 	cost_so_far={}
 	came_from[start]= None
+	came_from[goal]=None #neo lai
 	cost_so_far[start]=0
 	while not frontier.emtpy():
 		current=frontier.get()
@@ -59,6 +60,8 @@ def Astar_search(start, goal):
 
 def reconstruct_path(came_from, start, goal):
     current = goal
+    if came_from[goal]==None:
+    	return -1
     path = []
     while current != start:
         path.append(current)
@@ -75,32 +78,35 @@ for line in file_obj:
 	grid.append(line.strip().split(' '))
 file_obj.close()
 
-#process
+#write output
 g_start = (iS,jS) #g_ mean global_
 g_goal = (iG,jG)
 g_came_from = Astar_search(g_start,g_goal)  
 g_path = reconstruct_path(g_came_from,g_start,g_goal)
-numberOfStep = len(g_path)
-for i in range(sizeOfGrid):
-	for j in range(sizeOfGrid):
-		if (i,j) in g_path:
-			grid[i][j]='x'
-		elif grid[i][j]=='1':
-			grid[i][j]='o'
-		else:
-			grid[i][j]='-'
-grid[iS][jS]='S'
-grid[iG][jG]='G'
 
-#write output
 file_out = open("output.txt","w")
-file_out.write(str(numberOfStep)+'\n')
-for i in range(numberOfStep-1):
-	file_out.write(str(g_path[i])+" ")
-file_out.write(str(g_path[numberOfStep-1])+'\n')
-for i in range(sizeOfGrid):
-	for j in range(sizeOfGrid):
-		file_out.write(grid[i][j])
-		if j<sizeOfGrid-1: file_out.write(' ')
-	file_out.write('\n')
+if g_path==-1:
+	file_out.write("-1")
+else:
+	numberOfStep = len(g_path)
+	for i in range(sizeOfGrid):
+		for j in range(sizeOfGrid):
+			if (i,j) in g_path:
+				grid[i][j]='x'
+			elif grid[i][j]=='1':
+				grid[i][j]='o'
+			else:
+				grid[i][j]='-'
+	grid[iS][jS]='S'
+	grid[iG][jG]='G'
+
+	file_out.write(str(numberOfStep)+'\n')
+	for i in range(numberOfStep-1):
+		file_out.write(str(g_path[i])+" ")
+	file_out.write(str(g_path[numberOfStep-1])+'\n')
+	for i in range(sizeOfGrid):
+		for j in range(sizeOfGrid):
+			file_out.write(grid[i][j])
+			if j<sizeOfGrid-1: file_out.write(' ')
+		file_out.write('\n')
 file_out.close()
