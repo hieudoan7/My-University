@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Paint2D.Shape">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>d8iAiACCQADIAgAAAFAQIQAYyJQAwAoAiFgAgADKAQg=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.Paint2D" Collapsed="true">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JQKNBki0I6IAxRWVcAim1MOLtYCr4DQAGGM6ETGCwDQ=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyArc" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyBezier" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YICAAAAEYACAAgAAAAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>MyBezier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyCircle" Collapsed="true">
+    <Position X="19.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAQAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyCircle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyEllipse" Collapsed="true">
+    <Position X="6" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyEllipse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyHyperbola" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAgAEAACAAAAAAAAAAAAgBQAAAAAIAAA=</HashCode>
+      <FileName>MyHyperbola.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyImage" Collapsed="true">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAgACAQACAAgIAAAIAAAAYQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyLine" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QICBAAAAQACAAgAAAAAAAAAQAAAAAEAAAAAAAAAIAAA=</HashCode>
+      <FileName>MyLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyParabola" Collapsed="true">
+    <Position X="21.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAEAgIAAA=</HashCode>
+      <FileName>MyParabola.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyParallelogram" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAgAAAAAAAAAAAgAAAEAAAAAAAAAAAAQ=</HashCode>
+      <FileName>MyParallelogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyPolygon" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MyPolygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyPolyline" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BMiAAAAQQMCAAgAAABAAAAAQAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>MyPolyline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyRectangle" Collapsed="true">
+    <Position X="17.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAIAAQACAAgAAAAIQABAQQAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>MyRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MySelect" Collapsed="true">
+    <Position X="23.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAAACAQACAAgAAAAIAAAAQQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MySelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.MyText" Collapsed="true">
+    <Position X="10.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAACAQAAIAgAAAAAAAQAQgAAAgAEIAAAAAAAKAAA=</HashCode>
+      <FileName>MyText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.Program" Collapsed="true">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.Properties.Resources" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Paint2D.Properties.Settings" Collapsed="true">
+    <Position X="29.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,9 @@
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\bin\Debug\1612198.exe.config
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\bin\Debug\1612198.exe
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\bin\Debug\1612198.pdb
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\1612198.csprojResolveAssemblyReference.cache
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\_1612198.Form1.resources
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\_1612198.Properties.Resources.resources
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\1612198.csproj.GenerateResource.Cache
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\1612198.exe
+D:\HOC_KY_5\Computer Graphic\PROJECT 01_ Ve duong\mini project\1612198\1612198\obj\Debug\1612198.pdb
